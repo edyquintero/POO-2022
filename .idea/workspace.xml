@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cbff1f1-e16f-4be5-837e-8c9ab8bf5cc7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/DispensadorCerveza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyectos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/app/AppAgenda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/dominio/AgendaTelefonica.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/dominio/Contacto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/app/AppDispensador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Cerveza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Tamaño.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/app/AppDispensadora.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/MaquinaDispensadora.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/Snak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/app/AppAgenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/dominio/AgendaTelefonica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/dominio/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/app/AppDispensador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/Cerveza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/Tamaño.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/app/AppDispensadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/dominio/MaquinaDispensadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/dominio/Snak.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EB1IbK3lGHq67wrvlynzclPrPH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cbff1f1-e16f-4be5-837e-8c9ab8bf5cc7" name="Changes" comment="" />
+      <created>1662054084754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662054084754</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
