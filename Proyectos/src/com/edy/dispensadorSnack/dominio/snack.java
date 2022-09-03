@@ -2,12 +2,9 @@ package com.edy.dispensadorSnack.dominio;
 
 public class snack {
     private String producto;
-    private String marca;
     private byte cantidad=6;
     private byte codigo;
     private int precio;
-    private int peso;
-    private byte temperatura;
 
     public snack(String producto, byte codigo, int precio) {
         this.producto = producto;

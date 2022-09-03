@@ -125,7 +125,7 @@ public class MaquinaDispensadora {
 
     //metodos auxiliares
     public boolean validarCantidadDeSnacks(byte cantidadDeSnacks){
-        return (cantidadDeSnacks<=12);
+        return (cantidadDeSnacks<12);
     }
 
     //getter y setter
