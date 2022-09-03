@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbff1f1-e16f-4be5-837e-8c9ab8bf5cc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/DispensadorCerveza.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/Proyectos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/app/AppAgenda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/dominio/AgendaTelefonica.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/agenda/dominio/Contacto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/app/AppDispensador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Cerveza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Tamaño.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/app/AppDispensadora.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/MaquinaDispensadora.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/Snak.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/app/AppAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/dominio/AgendaTelefonica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/agenda/dominio/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/app/AppDispensador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/Cerveza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorCerveza/dominio/Tamaño.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/app/AppDispensadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/dominio/MaquinaDispensadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/src/com/edy/dispensadorSnak/dominio/Snak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +25,57 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects"
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Proyectos/src"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.AppAgenda">
+    <configuration name="AppAgenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.agenda.app.AppAgenda" />
+      <module name="Proyectos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edy.agenda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDispensador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.dispensadorCerveza.app.AppDispensador" />
+      <module name="Proyectos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edy.dispensadorCerveza.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDispensadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.dispensadorSnak.app.AppDispensadora" />
+      <module name="Proyectos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edy.dispensadorSnak.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppAgenda" />
+        <item itemvalue="Application.AppDispensador" />
+        <item itemvalue="Application.AppDispensadora" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,5 +97,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IdeaProjects$AppDispensador.ic" NAME="AppDispensador Coverage Results" MODIFIED="1662056853829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.edy.dispensadorCerveza.app.*</FILTER>
+    </SUITE>
   </component>
 </project>

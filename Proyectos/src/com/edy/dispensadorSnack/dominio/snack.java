@@ -1,17 +1,18 @@
-package com.edy.dispensadorSnak.dominio;
+package com.edy.dispensadorSnack.dominio;
 
-public class Snak {
+public class snack {
     private String producto;
     private String marca;
-    private byte cantidad;
+    private byte cantidad=6;
     private byte codigo;
+    private int precio;
     private int peso;
     private byte temperatura;
 
-    public Snak(String producto, byte cantidad, byte codigo) {
+    public snack(String producto, byte codigo, int precio) {
         this.producto = producto;
-        this.cantidad = cantidad;
         this.codigo = codigo;
+        this.precio = precio;
     }
 
     public String getProducto() {
@@ -36,5 +37,13 @@ public class Snak {
 
     public void setCodigo(byte codigo) {
         this.codigo = codigo;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
     }
 }

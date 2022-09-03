@@ -15,7 +15,7 @@ public class AppAgenda {
         AgendaTelefonica agenda = new AgendaTelefonica();
 
         System.out.println("|--------------------------------------------------------|\n"+
-                "|-----------Bienbenido a su agenda electronica-----------|\n"+
+                "|-----------Bienvenido a su agenda electronica-----------|\n"+
                 "|--------------------------------------------------------|");
 
         while (true){
