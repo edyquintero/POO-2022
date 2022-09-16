@@ -1,9 +1,8 @@
 package com.edy.concesionario.dominio;
 
-import com.edy.agenda.dominio.Contacto;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Concesionario {
     private String nombre;
@@ -20,6 +19,7 @@ public class Concesionario {
         if (buscarSerial(serial) == null && capacidadActual<CAPACIDAD_TOTAL){
             Moto moto = new Moto(serial, marca, precio, cilindraje, esNueva);
             this.motos.add(moto);
+            capacidadActual++;
             return true;
         } else {
             return false;
@@ -31,27 +31,35 @@ public class Concesionario {
         return motoBuscada;
     }
 
-    public void buscarMarca(String marca){
-        return;
+    public List buscarMarca(String marca){
+        return this.motos.stream().filter(moto -> moto.getMarca().equalsIgnoreCase(marca)).collect(Collectors.toList());
     }
 
-    public void buscarMotosNuevas(boolean soloNuevas){
-        return;
+    public List buscarMotosNuevas(boolean soloNuevas){
+        return this.motos.stream().filter(Moto::isEsNueva).collect(Collectors.toList());
     }
 
-    public void buscarMotoCilindraje(int cilindraje){
-        return;
+    public List buscarMotoCilindraje(int cilindraje){
+        return this.motos.stream().filter(moto -> moto.getCilindraje()>cilindraje).collect(Collectors.toList());
     }
 
-    public void venderMoto(Moto moto){
-        return;
+    public boolean venderMoto(long serial){
+        return this.motos.removeIf(moto -> moto.getSerial()==buscarSerial(serial).getSerial());
     }
 
     public List mostrarMotosDisponibles(){
         return motos;
     }
 
+    public int mostrarCapacidadConcesionario(){
+        return this.CAPACIDAD_TOTAL - this.capacidadActual;
+    }
+
     public int getCapacidadActual() {
         return capacidadActual;
+    }
+
+    public void setCapacidadActual(int capacidadActual) {
+        this.capacidadActual = capacidadActual;
     }
 }
