@@ -52,7 +52,7 @@ public class AppConcesionario {
                     }
 
                     bienAgregada = conce.ingresarNuevaMoto(serial, marca, precio, cilindraje, esNueva);
-                    if (bienAgregada==true){
+                    if (bienAgregada){
                         System.out.println("La moto ha sido agregada exitosamente");
                     } else {
                         System.out.println("No se ha podido agregar la moto al concesionario\n\tVerifique los datos suministrados e intente nuevamente");
@@ -63,12 +63,11 @@ public class AppConcesionario {
                 case 3:
 
                 case 4:
-                    List<Moto> motosAMostrar = conce.mostrarMotosDisponibles();
-                    motosAMostrar.forEach(moto -> System.out.println("Moto "+moto.getMarca()+", serial: "+moto.getSerial()+", cc: "+moto.getCilindraje()));
+                    //List<Moto> motosAMostrar = conce.mostrarMotosDisponibles();
+                    //motosAMostrar.forEach(moto -> System.out.println("Moto "+moto.getMarca()+", serial: "+moto.getSerial()+", cc: "+moto.getCilindraje()));
                 case 5:
 
                 case 6:
-                    break;
             }
 
         }
