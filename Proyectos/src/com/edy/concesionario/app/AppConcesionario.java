@@ -66,7 +66,7 @@ public class AppConcesionario {
                     Moto motoBuscada = concesionario.buscarSerial(serial);
                     if (motoBuscada!= null){
                         System.out.println("La moto encontrada fue: \n\n\t"+motoBuscada.getMarca()+" ("+motoBuscada.getCilindraje()+") serial --> "+
-                                motoBuscada.getSerial()+", precio --> $"+motoBuscada.getPrecio()+" (nueva = "+motoBuscada.isEsNueva());
+                                motoBuscada.getSerial()+", precio --> $"+motoBuscada.getPrecio()+" (nueva = "+motoBuscada.isEsNueva()+")");
                     } else {
                         System.out.println("Ninguna moto fue encontrada con este serial");
                     }
@@ -78,7 +78,7 @@ public class AppConcesionario {
                     if (motosEncontradas!=null){
                         System.out.println("Las motos encontradas fueron: ");
                         motosEncontradas.forEach(moto -> System.out.println("\n\t"+moto.getMarca()+" ("+moto.getCilindraje()+") serial --> "+
-                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()));
+                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()+")"));
                     } else {
                         System.out.println("No se han encontrado motos de esta marca");
                     }
@@ -87,7 +87,7 @@ public class AppConcesionario {
                     if (motosEncontradas!=null){
                         System.out.println("Las motos encontradas fueron: ");
                         motosEncontradas.forEach(moto -> System.out.println("\n\t"+moto.getMarca()+" ("+moto.getCilindraje()+") serial --> "+
-                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()));
+                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()+")"));
                     } else {
                         System.out.println("No se han encontrado motos nuevas");
                     }
@@ -99,7 +99,7 @@ public class AppConcesionario {
                     if (motosEncontradas!=null){
                         System.out.println("Las motos encontradas fueron: ");
                         motosEncontradas.forEach(moto -> System.out.println("\n\t"+moto.getMarca()+" ("+moto.getCilindraje()+") serial --> "+
-                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()));
+                                moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()+")"));
                     } else {
                         System.out.println("No se han encontrado motos con cilindrame mayor al ingresado");
                     }
@@ -114,9 +114,9 @@ public class AppConcesionario {
                 Moto motoAVender = concesionario.buscarSerial(serial);
                 vendida = concesionario.venderMoto(serial);
                 if (vendida){
-                    concesionario.setCapacidadActual(concesionario.getCapacidadActual()-1);
-                    System.out.println("\n\t"+motoAVender.getMarca()+" ("+motoAVender.getCilindraje()+") serial --> "+
-                            motoAVender.getSerial()+", precio --> $"+motoAVender.getPrecio()+" (nueva = "+motoAVender.isEsNueva());
+                    concesionario.setCapacidadActual(concesionario.getCapacidadActual()-1);;
+                    System.out.println("La moto vendida ha sido:\n\t"+motoAVender.getMarca()+" ("+motoAVender.getCilindraje()+") serial --> "+
+                            motoAVender.getSerial()+", precio --> $"+motoAVender.getPrecio()+" (nueva = "+motoAVender.isEsNueva()+")");
                 } else {
                     System.out.println("La moto no se ha podido vender");
                 }
@@ -125,7 +125,7 @@ public class AppConcesionario {
                 List<Moto> motosAMostrar = concesionario.mostrarMotosDisponibles();
                 System.out.println("Las motos encontradas fueron: ");
                 motosAMostrar.forEach(moto -> System.out.println("\n\t"+moto.getMarca()+" ("+moto.getCilindraje()+") serial --> "+
-                        moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()));
+                        moto.getSerial()+", precio --> $"+moto.getPrecio()+" (nueva = "+moto.isEsNueva()+")"));
 
             } else if (opcion==5) {
                 int capacidad = concesionario.mostrarCapacidadConcesionario();
