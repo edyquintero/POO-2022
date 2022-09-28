@@ -1,18 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DispensadorCerveza" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DispensadorCerveza" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="ChangeListManager">
+    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/app/AppCentroComercial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/CentroComercial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/CentroComercial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Tienda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Tienda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/app/AppAgenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/app/AppAgenda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/dominio/AgendaTelefonica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/dominio/AgendaTelefonica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/dominio/Contacto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/agenda/dominio/Contacto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/app/AppConcesionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/app/AppConcesionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/dominio/Concesionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/dominio/Concesionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/dominio/Moto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/concesionario/dominio/Moto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/app/AppDispensador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/app/AppDispensador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Cerveza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Cerveza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/DispensadorCerveza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Tamaño.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorCerveza/dominio/Tamaño.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/app/AppDispensadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/app/AppDispensadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/dominio/MaquinaDispensadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/dominio/MaquinaDispensadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/dominio/snack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnack/dominio/snack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/centroComercial/app/AppCentroComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/centroComercial/app/AppCentroComercial.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FBnltfD6NjX2pOpBZECLWms4Mv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Edy Quintero/IdeaProjects/POO - Clases&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="" />
+      <created>1663974501422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663974501422</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IdeaProjects$AppDispensador.ic" NAME="AppDispensador Coverage Results" MODIFIED="1662056853829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.edy.dispensadorCerveza.app.*</FILTER>
+    </SUITE>
   </component>
 </project>

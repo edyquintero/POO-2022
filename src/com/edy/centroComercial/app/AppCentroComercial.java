@@ -1,6 +1,5 @@
-package centroComercial.app;
+package com.edy.centroComercial.app;
 
-import centroComercial.dominio.Categoria;
 import centroComercial.dominio.CentroComercial;
 import centroComercial.dominio.Tienda;
 
