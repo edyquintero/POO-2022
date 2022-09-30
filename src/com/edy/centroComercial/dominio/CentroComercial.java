@@ -1,4 +1,4 @@
-package centroComercial.dominio;
+package com.edy.centroComercial.dominio;
 
 import java.util.ArrayList;
 import java.util.Comparator;

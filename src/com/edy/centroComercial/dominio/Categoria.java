@@ -1,4 +1,4 @@
-package centroComercial.dominio;
+package com.edy.centroComercial.dominio;
 
 public class Categoria {
     private String categoria;

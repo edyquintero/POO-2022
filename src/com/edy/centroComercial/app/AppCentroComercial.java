@@ -1,14 +1,15 @@
 package com.edy.centroComercial.app;
 
-import centroComercial.dominio.CentroComercial;
-import centroComercial.dominio.Tienda;
+
+import com.edy.centroComercial.dominio.CentroComercial;
+import com.edy.centroComercial.dominio.Tienda;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class AppCentroComercial {
     public static void main(String[] args) {
-        CentroComercial centroComercial = new CentroComercial("Centro comercial");
+        CentroComercial centroComercial = new CentroComercial("Centro Comercial - UCO");
         List<Tienda> tiendas = new ArrayList<>();
 
         ArrayList<String> categorias1 = new ArrayList();

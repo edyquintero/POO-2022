@@ -1,4 +1,4 @@
-package centroComercial.dominio;
+package com.edy.centroComercial.dominio;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class Tienda {
     private long codigo;
     private String nombre;
 
-    private List<Categoria> categorias=new ArrayList<>();
+    private List<Categoria> categorias = new ArrayList<>();
 
 
     public Tienda(long codigo, String nombre, List categorias) {
