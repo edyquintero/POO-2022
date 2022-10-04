@@ -17,7 +17,6 @@ public class AppCalculadora {
     public static void main(String[] args) throws IOException {
         Calculadora calculadora = new Calculadora("Calculadora");
         boolean continuar = true;
-        JCheckBox box = new JCheckBox("Redondear");
         boolean redondear = false;
 
         ImageIcon iconCalculadora = new ImageIcon(AppCalculadora.class.getResourceAsStream("calculadora.png").readAllBytes());
