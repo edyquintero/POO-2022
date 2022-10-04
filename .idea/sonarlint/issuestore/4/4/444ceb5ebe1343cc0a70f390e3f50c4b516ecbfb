@@ -1,0 +1,23 @@
+
+J
+java:S3740""/Provide the parametrized type for this generic.(ÙšÂÐþÿÿÿÿ
+J
+java:S3740&"/Provide the parametrized type for this generic.(àþò£ýÿÿÿÿ
+J
+java:S3740*"/Provide the parametrized type for this generic.(›„à§ýÿÿÿÿ
+E
+java:S37402"/Provide the parametrized type for this generic.(ÆÓºÎ
+x
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "motoBuscada".(¤ðá*
+m
+java:S6204#"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(õ¦•ùýÿÿÿÿ
+L
+java:S1172&"1Remove this unused method parameter "soloNuevas".(àþò£ýÿÿÿÿ
+m
+java:S6204'"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ºä¹—ýÿÿÿÿ
+m
+java:S6204+"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(íÀä¿ùÿÿÿÿ
+K
+java:S22097"5Change this instance-reference to a static reference.(¹Ç‹¢
+E
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ

@@ -1,0 +1,25 @@
+
+i
+java:S11924"SDefine a constant instead of duplicating this literal "Nombre del snack: " 3 times.(ş¡şõ
+n
+java:S1192-"SDefine a constant instead of duplicating this literal "Codigo del snack: " 3 times.(ÀèÊÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é“ƒ
+h
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‚½Ã
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£Ö‘İıÿÿÿÿ
+M
+java:S6126"2Replace this String concatenation with Text block.(£Ö‘İıÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ˆèØ¾ùÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(‘€¾àıÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ÀèÊÿÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ş¡şõ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(Ÿ¯àéıÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÀèÊÿÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ş¡şõ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(«‹Äÿÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(í¤œü
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(£¹í¥
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(ÀèÊÿÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(ş¡şõ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(«‹Äÿÿÿÿÿ

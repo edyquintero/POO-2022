@@ -1,0 +1,34 @@
+
+e
+java:S1192R"JDefine a constant instead of duplicating this literal " unidades" 5 times.(ô•€Šùÿÿÿÿ
+a
+java:S1192R"FDefine a constant instead of duplicating this literal " --> " 5 times.(ô•€Šùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷÷²Ê
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ•æåşÿÿÿÿ
+Q
+java:S1172"6Remove this unused method parameter "cantidadDeSnaks".(ªÉ´Çøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ì™éòıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´æµ”ùÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(Ú„î¡
+V	java:S125%"<This block of commented-out lines of code should be removed.(Í»¶Óıÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(ÔØ¥Ÿùÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ª÷—Ò
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(´†Õúùÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(¯«äâ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ÈˆË÷øÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(çùÃ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(ˆÓÒ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(ô•€Šùÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(ÈˆË÷øÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(ô•€Šùÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(Šñ—Íúÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(ôÄ¦
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(í”™ò
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(ôÄ¦
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(ƒ¤½Ïúÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(Áğ÷ªùÿÿÿÿ
+N	java:S106x"9Replace this use of System.out or System.err by a logger.(ôÄ¦
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(ƒ¤½Ïúÿÿÿÿ
+?
+java:S1068")Remove this unused "marca" private field.(š’Ôæ
