@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Commit Fixes">
-      <change afterPath="$PROJECT_DIR$/src/com/edy/figurasGeometricas/app/AppFigurasGeometricas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/figurasGeometricas/dominio/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/figurasGeometricas/dominio/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/figurasGeometricas/dominio/FiguraGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/figurasGeometricas/dominio/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/dinero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/guayaba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/instrucciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/persona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Categoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/centroComercial/dominio/Tienda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/calculadora/app/AppCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/calculadora/app/AppCalculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/calculadora/app/calculadora.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/calculadora/app/calculadora.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/calculadora/app/AppCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/calculadora/app/AppCalculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/calculadora/app/calculadora.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/calculadora/app/calculadora.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -154,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664577281835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Desafio 1">
+      <created>1664906402211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664906402211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Desafio 1">
+      <created>1664906487420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664906487420</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +177,8 @@
     <MESSAGE value=":C" />
     <MESSAGE value="Commit Calculator" />
     <MESSAGE value="Commit Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Fixes" />
+    <MESSAGE value="Desafio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IdeaProjects$AppDispensador.ic" NAME="AppDispensador Coverage Results" MODIFIED="1662056853829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

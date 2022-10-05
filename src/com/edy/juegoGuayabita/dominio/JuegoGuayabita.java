@@ -17,7 +17,7 @@ public class JuegoGuayabita {
             jugador1.setDineroActual(jugador1.dineroActual-minimaCantidadInicial);
             jugador2.setDineroActual(jugador2.dineroActual-minimaCantidadInicial);
 
-            bote = minimaCantidadInicial*2;
+            this.bote = this.minimaCantidadInicial*2;
             return true;
         }
         else {

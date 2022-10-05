@@ -10,7 +10,7 @@ public class Jugador {
     }
 
     public byte tirarDado() {
-        return (byte) (Math.random() * 6);
+        return (byte) (Math.random() * 6 + 1);
     }
 
 
