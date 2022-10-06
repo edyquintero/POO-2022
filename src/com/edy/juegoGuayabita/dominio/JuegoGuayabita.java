@@ -6,27 +6,24 @@ public class JuegoGuayabita {
 
     String instructions;
 
-
     public JuegoGuayabita(double bote, double minimaCantidadInicial){
         this.bote = bote;
         this.minimaCantidadInicial = minimaCantidadInicial;
     }
 
     public boolean iniciarJuego(Jugador jugador1, Jugador jugador2){
-        if(jugador1.getDineroActual()>minimaCantidadInicial && jugador2.getDineroActual()>minimaCantidadInicial){
+        if((jugador1.getDineroActual()>minimaCantidadInicial) && (jugador2.getDineroActual()>minimaCantidadInicial)){
             jugador1.setDineroActual(jugador1.dineroActual-minimaCantidadInicial);
             jugador2.setDineroActual(jugador2.dineroActual-minimaCantidadInicial);
 
             this.bote = this.minimaCantidadInicial*2;
             return true;
         }
-        else {
-            return false;
-        }
+        return false;
     }
 
-    public boolean apostar(double cantidadApostada){
-        if (cantidadApostada<=bote){
+    public boolean apostar(double cantidadApostada, Jugador jugador){
+        if (cantidadApostada<=bote && jugador.dineroActual>bote){
             bote = bote + cantidadApostada;
             return true;
         } else {
@@ -34,17 +31,12 @@ public class JuegoGuayabita {
         }
     }
 
-
     public double getBote() {
         return bote;
     }
 
     public void setBote(double bote) {
         this.bote = bote;
-    }
-
-    public Object getMinimaCantidadInicial() {
-        return minimaCantidadInicial;
     }
 
     public void setMinimaCantidadInicial(double minimaCantidadInicial) {

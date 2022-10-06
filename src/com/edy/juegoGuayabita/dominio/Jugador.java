@@ -13,15 +13,6 @@ public class Jugador {
         return (byte) (Math.random() * 6 + 1);
     }
 
-
-    public void sederTurno(){
-
-    }
-
-    public void retirarse(){
-
-    }
-
     public String getNombre() {
         return nombre;
     }

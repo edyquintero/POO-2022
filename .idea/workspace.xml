@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/AppJuego.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/AppJuego.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/JuegoGuayabita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/JuegoGuayabita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/Jugador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" afterDir="false" />
@@ -158,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664906487420</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Desafio 1">
+      <created>1665007009206</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665007009206</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Desafio 1">
+      <created>1665007226943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665007226943</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
