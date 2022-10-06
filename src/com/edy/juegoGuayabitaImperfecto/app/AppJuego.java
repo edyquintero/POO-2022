@@ -1,7 +1,7 @@
-package com.edy.juegoGuayabita.app;
+package com.edy.juegoGuayabitaImperfecto.app;
 
-import com.edy.juegoGuayabita.dominio.JuegoGuayabita;
-import com.edy.juegoGuayabita.dominio.Jugador;
+import com.edy.juegoGuayabitaImperfecto.dominio.JuegoGuayabita;
+import com.edy.juegoGuayabitaImperfecto.dominio.Jugador;
 
 import javax.swing.*;
 import java.io.IOException;

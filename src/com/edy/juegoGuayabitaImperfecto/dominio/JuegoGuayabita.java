@@ -1,4 +1,4 @@
-package com.edy.juegoGuayabita.dominio;
+package com.edy.juegoGuayabitaImperfecto.dominio;
 
 public class JuegoGuayabita {
     double bote;
