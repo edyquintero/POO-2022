@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 1">
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/guayaba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dado_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/dinero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/guayaba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/instrucciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/persona.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/AppJuego.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/guayaba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/JuegoGuayabita.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/Jugador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/app/AppJuego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/guayaba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayabita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/dominio/JuegoGuayabita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabitaImperfecto/dominio/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665042151650</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Desafio 1">
+      <created>1665084657028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665084657028</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,25 +232,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java</url>
-          <line>26</line>
-          <properties class="com.edy.juegoGuayabita.dominio.JuegoGuayaba" method="validarDinero">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

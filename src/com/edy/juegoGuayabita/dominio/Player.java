@@ -9,7 +9,9 @@ public class Player {
         this.dinero = dinero;
     }
 
-
+    public byte tirarDado() {
+        return (byte) (Math.random() * 6 + 1);
+    }
 
     public String getNombre() {
         return nombre;
