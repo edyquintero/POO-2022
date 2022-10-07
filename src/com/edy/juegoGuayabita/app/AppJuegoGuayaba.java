@@ -126,6 +126,7 @@ public class AppJuegoGuayaba {
                         }
                     case NO:
                         mostrarMensaje("Sediendo turno", guayaba);
+                        turno(jugador, juegoGuayaba, guayaba);
                         break;
                     default:
                         break;
