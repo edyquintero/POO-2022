@@ -7,17 +7,23 @@ import javax.swing.*;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
-public class AppJuegoGuayaba {
-    public static final byte SI = 0;
-    public static final byte NO = 1;
+public class AppJuegoGuayaba  {
+    private static final byte SI = 0;
+    private static final byte NO = 1;
+    private static final ImageIcon guayaba = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("guayaba.png")));
+    private static final ImageIcon dinero = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dinero.png")));
+    private static final ImageIcon persona = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("persona.png")));
+    private static final ImageIcon instrucciones = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("instrucciones.png")));
+    private static final ImageIcon dado1 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_1.png")));
+    private static final ImageIcon dado2 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_2.png")));
+    private static final ImageIcon dado3 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_3.png")));
+    private static final ImageIcon dado4 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_4.png")));
+    private static final ImageIcon dado5 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_5.png")));
+    private static final ImageIcon dado6 = new ImageIcon(Objects.requireNonNull(AppJuegoGuayaba.class.getResource("dado_6.png")));
+
     public static void main(String[] args) throws IOException {
-
-        ImageIcon guayaba = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("guayaba.png").readAllBytes());
-        ImageIcon dinero = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dinero.png").readAllBytes());
-        ImageIcon persona = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("persona.png").readAllBytes());
-        ImageIcon instrucciones = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("instrucciones.png").readAllBytes());
-
         byte opcionSeleccionada;
         boolean asignandoDinero;
         boolean dineroAsignado = true;
@@ -72,23 +78,34 @@ public class AppJuegoGuayaba {
 
             break;
         }
-        juegoGuayabita.iniciarJuego(jugador1, jugador2);
-        mostrarMensaje("Inciando juego", guayaba);
-        turno(jugador1, juegoGuayabita, guayaba);
 
+        juegoGuayabita.iniciarJuego(jugador1, jugador2);
+        boolean jugando = true;
+        mostrarMensaje("Inciando juego", guayaba);
+
+        while (jugando) {
+            boolean si = turno(jugador1, jugador1, jugador2, juegoGuayabita, guayaba);
+            if (si) {
+                boolean boteVacio = juegoGuayabita.validarPote();
+                if (boteVacio) {
+                    juegoGuayabita.iniciarJuego(jugador1, jugador2);
+                }
+            } else {
+                boolean jugo = turno(jugador2, jugador1, jugador2, juegoGuayabita, guayaba);
+                if (jugo) {
+                    boolean boteVacio = juegoGuayabita.validarPote();
+                    if (boteVacio) {
+                        juegoGuayabita.iniciarJuego(jugador1, jugador2);
+                    }
+                }
+            }
+        }
 
     }
 
-    public static void turno(Player jugador, JuegoGuayaba juegoGuayaba, ImageIcon icon) throws IOException {
+    public static boolean turno(Player jugador, Player jugador1, Player jugador2,JuegoGuayaba juegoGuayaba, ImageIcon icon) throws IOException {
 
         ImageIcon guayaba = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("guayaba.png").readAllBytes());
-
-        ImageIcon dado1 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_1.png").readAllBytes());
-        ImageIcon dado2 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_2.png").readAllBytes());
-        ImageIcon dado3 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_3.png").readAllBytes());
-        ImageIcon dado4 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_4.png").readAllBytes());
-        ImageIcon dado5 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_5.png").readAllBytes());
-        ImageIcon dado6 = new ImageIcon(AppJuegoGuayaba.class.getResourceAsStream("dado_6.png").readAllBytes());
 
         List<ImageIcon> icons = Arrays.asList(dado1, dado2, dado3, dado4, dado5, dado6);
 
@@ -101,40 +118,54 @@ public class AppJuegoGuayaba {
                  tiro1 = jugador.tirarDado();
                 if (tiro1 == 1 || tiro1 == 6) {
                     mostrarMensaje(jugador.getNombre() + ", este ha sido su dado, no podras apostar ("+tiro1+")", icons.get(tiro1-1));
+                    return false;
                 }
                 opcion = JOptionPane.showConfirmDialog(null, jugador.getNombre() + ", este es tu dado.\n¿Deseas hacer una apuesta?("+tiro1+")", "Guayabita", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, icons.get(tiro1-1));
                 switch (opcion) {
                     case SI:
                         double cantidadApostada = Double.parseDouble((String) JOptionPane.showInputDialog(null, jugador.getNombre()+", ¿cuánto deseas apostar?\n\n(el bote está en $"+juegoGuayaba.getBote()+")", "Guayabita", JOptionPane.ERROR_MESSAGE, icon, null, 0));
-                        boolean apostar = juegoGuayaba.validarApostar(cantidadApostada);
+                        boolean apostar = juegoGuayaba.validarApostar(jugador, cantidadApostada);
                         if (apostar) {
                             mostrarMensaje("Tirando dado", guayaba);
                             tiro2 = jugador.tirarDado();
                             if (tiro1<tiro2){
-                                mostrarMensaje(jugador.getNombre()+", este es tu dado\n\n¡HAS GANADO!", icons.get(tiro2));
-                                jugador.setDinero(jugador.getDinero()+cantidadApostada);
+                                mostrarMensaje(jugador.getNombre()+", este es tu dado\n\n¡HAS GANADO!", icons.get(tiro2-1));
+                                jugador.setDinero(jugador.getDinero()+(cantidadApostada));
                                 juegoGuayaba.setBote(juegoGuayaba.getBote()-cantidadApostada);
-                                break;
+                                mostrarMensaje(jugador1.getNombre()+" --> $"+jugador1.getDinero()+"\n\n"+jugador2.getNombre()+" --> $"+jugador2.getDinero(), dinero);
+                                if (juegoGuayaba.getBote()==0){
+                                    mostrarMensaje("Iniciando nuevo juego", guayaba);
+                                }
+                                return true;
                             } else {
-                                mostrarMensaje(jugador.getNombre()+", este es tu dado\n\nHas perdido...", icons.get(tiro2));
                                 jugador.setDinero(jugador.getDinero()-cantidadApostada);
                                 juegoGuayaba.setBote(juegoGuayaba.getBote()+cantidadApostada);
-                                break;
+                                mostrarMensaje(jugador.getNombre()+", este es tu dado\n\nHas perdido...\n\n(Tu dinero es --> $"+jugador.getDinero()+")", icons.get(tiro2-1));
+
+                                return false;
                             }
                         } else {
                             mostrarMensaje(jugador.getNombre()+", no puedes apostar esta cantidad", guayaba);
                         }
                     case NO:
                         mostrarMensaje("Sediendo turno", guayaba);
-                        turno(jugador, juegoGuayaba, guayaba);
-                        break;
+                        if (Objects.equals(jugador.getNombre(), jugador1.getNombre())){
+                            turno(jugador2, jugador1, jugador2,juegoGuayaba, guayaba);
+                        } else {
+                            turno(jugador1, jugador1, jugador2, juegoGuayaba, guayaba);
+                        }
+                        return false;
                     default:
                         break;
                 }
             case NO:
-                turno(jugador,juegoGuayaba, guayaba);
-            default:
-                break;
+                mostrarMensaje("Sediendo turno", guayaba);
+                if (Objects.equals(jugador.getNombre(), jugador2.getNombre())){
+                    turno(jugador1, jugador1, jugador2,juegoGuayaba, guayaba);
+                } else {
+                    turno(jugador2, jugador1, jugador2, juegoGuayaba, guayaba);
+                }            default:
+                return false;
         }
     }
     public static void mostrarMensaje(String mensaje, ImageIcon icon){

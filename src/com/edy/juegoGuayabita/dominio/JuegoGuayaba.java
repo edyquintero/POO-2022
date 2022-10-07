@@ -36,8 +36,12 @@ public class JuegoGuayaba {
         this.bote = this.apuestaInicial*2;
     }
 
-    public boolean validarApostar(double cantidadApostada){
-        return cantidadApostada <= bote;
+    public boolean validarApostar(Player jugador,double cantidadApostada){
+        return (cantidadApostada <= bote)&&(jugador.getDinero()>=cantidadApostada);
+    }
+
+    public boolean validarPote(){
+        return bote == 0;
     }
 
     public double getApuestaInicial() {

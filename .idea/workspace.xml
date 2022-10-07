@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/AppJuegoGuayaba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/app/AppJuegoGuayaba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/JuegoGuayaba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/juegoGuayabita/dominio/JuegoGuayaba.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/JuegoGuayaba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/juegoGuayabita/dominio/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665084657028</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Desafio 1">
+      <created>1665155993435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155993435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Desafio 1">
+      <created>1665156013016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156013016</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Desafio 1">
+      <created>1665156145499</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156145499</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +258,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/edy/juegoGuayabita/app/AppJuegoGuayaba.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
