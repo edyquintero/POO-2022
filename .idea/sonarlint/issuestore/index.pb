@@ -11,12 +11,8 @@ e
 5src/com/edy/dispensadorSnack/app/AppDispensadora.java,1\7\17aeb22a097b04ec7b9b6dba724a2aface9aeb44
 m
 =src/com/edy/dispensadorSnack/dominio/MaquinaDispensadora.java,c\e\ceeaaf7eaf686fa9a7bf0bdebce98ce1bf8febe4
-g
-7src/com/edy/centroComercial/app/AppCentroComercial.java,9\1\91577a27de1280788b12cdf21ef4700f213c1420
 b
 2src/com/edy/centroComercial/dominio/Categoria.java,b\9\b96134db56e61f290ad0799abe01e3c3b77decf8
-h
-8src/com/edy/centroComercial/dominio/CentroComercial.java,c\8\c8637d75d8baef0306d79d6e7ab1222293a4ebbf
 _
 /src/com/edy/centroComercial/dominio/Tienda.java,5\7\576835f9f1ca588a19212a6c1e8f73ef9b6f3d82
 `
