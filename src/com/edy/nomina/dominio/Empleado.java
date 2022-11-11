@@ -1,4 +1,4 @@
-package com.edy.tienda.dominio;
+package com.edy.nomina.dominio;
 
 public abstract class Empleado {
     protected String nombre;
@@ -8,4 +8,9 @@ public abstract class Empleado {
     }
 
     protected abstract long calcularSalario();
+
+    public String getNombre() {
+        return nombre;
+    }
+
 }

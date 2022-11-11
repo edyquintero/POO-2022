@@ -1,5 +1,4 @@
-package com.edy.tienda.dominio;
-import com.edy.tienda.dominio.Nomina;
+package com.edy.nomina.dominio;
 
 public class Directo extends Empleado{
     public long salario;
@@ -31,5 +30,9 @@ public class Directo extends Empleado{
         } else {
             return (long) (gananciaMes*3.5);
         }
+    }
+
+    public String toString() {
+        return getNombre()+" empleado directo gana "+calcularSalario()+"\n";
     }
 }

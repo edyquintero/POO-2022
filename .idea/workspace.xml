@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Facturacion">
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Directo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Freelance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Nomina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Vendedor.java" afterDir="false" />
+    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 2">
+      <change afterPath="$PROJECT_DIR$/src/com/edy/agenda/app/oaisdjfasd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/app/AppInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Activable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Celular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularAvanzado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularBasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularInternedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularSemiavanzado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Desbloqueable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/app/AppAntivirus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Antivirus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Archivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Documento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/DocumentoPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/DocumentoWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Viruseable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/app/AppNomina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Nomina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Promotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/app/AppClinica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Oftalmologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Operable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteApto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteNoApto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/692f77a3df8c5e4c7cd00f358a39d5418aa335c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b96134db56e61f290ad0799abe01e3c3b77decf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnak/app/AppDispensadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/MaquinaDispensadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispensadorCerveza/com/edy/dispensadorSnak/dominio/Snak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Directo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Directo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Freelance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Freelance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Nomina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +66,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FBnltfD6NjX2pOpBZECLWms4Mv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,6 +90,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.edy.nomina.dominio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Edy Quintero\IdeaProjects\POO\src\com\edy" />
       <recent name=":\Users\Edy Quintero\IdeaProjects\POO\src\com\edy\juegoGuayabita3\app" />
@@ -68,7 +100,20 @@
       <recent name="C:\Users\Edy Quintero\IdeaProjects\POO\src\com\edy\juegoGuayabita3\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppFacturacion">
+  <component name="RunManager" selected="Application.AppClinica">
+    <configuration name="AppAntivirus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.interfaces2.app.AppAntivirus" />
+      <module name="DispensadorCerveza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edy.interfaces2.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.edy.calculadora.app.AppCalculadora" />
       <module name="DispensadorCerveza" />
@@ -82,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppFacturacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edy.facturacion.app.AppFacturacion" />
+    <configuration name="AppClinica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.tallerFinal.app.AppClinica" />
       <module name="DispensadorCerveza" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edy.facturacion.app.*" />
+          <option name="PATTERN" value="com.edy.tallerFinal.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppJuego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edy.juegoGuayabita1.app.AppJuego" />
+    <configuration name="AppInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.interfaces.app.AppInterface" />
       <module name="DispensadorCerveza" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edy.juegoGuayabita1.app.*" />
+          <option name="PATTERN" value="com.edy.interfaces.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppJuegoGuayaba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edy.juegoGuayabita2.app.AppJuegoGuayaba" />
+    <configuration name="oaisdjfasd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edy.agenda.app.oaisdjfasd" />
       <module name="DispensadorCerveza" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edy.juegoGuayabita2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppJuegoGuayaba3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edy.juegoGuayabita3.app.AppJuegoGuayaba3" />
-      <module name="DispensadorCerveza" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edy.juegoGuayabita3.app.*" />
+          <option name="PATTERN" value="com.edy.agenda.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppFacturacion" />
+        <item itemvalue="Application.AppClinica" />
+        <item itemvalue="Application.AppAntivirus" />
+        <item itemvalue="Application.AppInterface" />
+        <item itemvalue="Application.oaisdjfasd" />
         <item itemvalue="Application.AppCalculadora" />
-        <item itemvalue="Application.AppJuegoGuayaba3" />
-        <item itemvalue="Application.AppJuego" />
-        <item itemvalue="Application.AppJuegoGuayaba" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666286075068</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Desafio 2">
+      <created>1666641235494</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666641235494</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +318,8 @@
     <MESSAGE value="Commit Fixes" />
     <MESSAGE value="Desafio 1" />
     <MESSAGE value="Facturacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facturacion" />
+    <MESSAGE value="Desafio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,6 +327,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

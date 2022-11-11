@@ -1,4 +1,4 @@
-package com.edy.tienda.dominio;
+package com.edy.nomina.dominio;
 
 public class Freelance extends Empleado{
     public long valorHora;
@@ -13,5 +13,9 @@ public class Freelance extends Empleado{
     @Override
     protected long calcularSalario() {
         return valorHora*horasTrabajadas;
+    }
+
+    public String toString() {
+        return getNombre()+" empleado freelance gana "+calcularSalario()+"\n";
     }
 }
