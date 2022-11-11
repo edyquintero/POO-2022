@@ -7,6 +7,8 @@ public class PacienteApto extends Paciente implements Operable{
 
     @Override
     public void operar() {
-        necesitaCirugia = false;
+        if (this.necesitaCirugia) {
+            necesitaCirugia = false;
+        }
     }
 }

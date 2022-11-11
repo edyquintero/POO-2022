@@ -12,12 +12,11 @@ public class Oftalmologo {
         this.nombre = nombre;
     }
 
-    public Paciente revisarPaciente(String nombre, int edad){
-        nombre.toUpperCase();
-        if (nombre.startsWith("a")&&edad<40){
-            return new PacienteApto(nombre, edad, true);
+    public Paciente revisarPaciente(String nombre, int edad, boolean necesitaCirugia){
+        if ((nombre.toLowerCase().startsWith("a"))&&edad<40){
+            return new PacienteApto(nombre, edad, necesitaCirugia);
         } else {
-            return new PacienteNoApto(nombre, edad, false);
+            return new PacienteNoApto(nombre, edad, necesitaCirugia);
         }
     }
 
@@ -25,11 +24,19 @@ public class Oftalmologo {
         pacientesAOperar.forEach(paciente -> {if(paciente instanceof PacienteApto) {((PacienteApto) paciente).operar();}});
     }
 
-    public List<Paciente> getPacientesAOperar() {
-        return pacientesAOperar.stream().filter(paciente -> paciente.isNecesitaCirugia()).collect(Collectors.toList());
+    public List<Paciente>  getPacientesAOperar() {
+        return pacientesAOperar.stream().filter(paciente -> paciente.isNecesitaCirugia()&&apto(paciente)).collect(Collectors.toList());
     }
 
     public void agregar(Paciente paciente) {
         this.pacientesAOperar.add(paciente);
+    }
+
+    public boolean apto(Paciente paciente) {
+        if ((paciente.getNombre().toLowerCase().startsWith("a"))&&paciente.getEdad()<40){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

@@ -1,43 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="Desafio 2">
-      <change afterPath="$PROJECT_DIR$/src/com/edy/agenda/app/oaisdjfasd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/app/AppInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Activable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Celular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularAvanzado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularInternedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/CelularSemiavanzado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Desbloqueable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces/dominio/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/app/AppAntivirus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Antivirus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Archivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/DocumentoPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/DocumentoWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/interfaces2/dominio/Viruseable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/app/AppNomina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Nomina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Promotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/app/AppClinica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Oftalmologo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Operable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteApto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteNoApto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/692f77a3df8c5e4c7cd00f358a39d5418aa335c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b96134db56e61f290ad0799abe01e3c3b77decf8" beforeDir="false" />
+    <list default="true" id="610abcf8-6d62-4307-886f-d53f90884636" name="Changes" comment="TallerFinal">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Directo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Directo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Freelance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Freelance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Nomina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/edy/tienda/dominio/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/nomina/dominio/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tallerFinal/app/AppClinica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/app/AppClinica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Oftalmologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/Oftalmologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteApto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/edy/tallerFinal/dominio/PacienteApto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666641235494</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TallerFinal">
+      <created>1668188826833</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668188826833</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +295,8 @@
     <MESSAGE value="Desafio 1" />
     <MESSAGE value="Facturacion" />
     <MESSAGE value="Desafio 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2" />
+    <MESSAGE value="TallerFinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="TallerFinal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
